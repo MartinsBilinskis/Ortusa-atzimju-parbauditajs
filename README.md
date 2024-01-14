@@ -9,7 +9,7 @@ Pirms programmas palaišanas ir nepieciešams ierakstīt savējos kredenciāļus
 Ir arī nepieciešams vai nu ortusā uzlikt ka vērtējumus sūta uz g-mail vai arī savs ortusa pasts (outlook) jauzstāda, lai tas automatiski pārsūta vēstules uz g-mail. Ja izvēlas pārsūtīt no outlook uz g-mail tad settingos vajag ierakstīt savu ortusa e-pasta adresi pie "test_email"
 
 ## Programmas lietošana
-Pēc uzstādes, šī programma strādā fonā. Pēc norādītā perioda tā pieslēdzas e-pastam un pārbauda vai nav jauna ziņa no ortua par atzīmi, ja ir tad tā neatverot jaunus logus iees ortusā un atsūtīts atpakaļ uz e-pastu vērtējumu. 
+Pēc uzstādes, šī programma strādā fonā. Pēc norādītā perioda tā pieslēdzas e-pastam un pārbauda vai nav jauna ziņa no ortusa par atzīmi, ja ir tad tā neatverot jaunus logus iees ortusā un atsūtīts atpakaļ uz e-pastu vērtējumu. 
 
 ## Izmantotās bibliotēkas
 ### Selenium
@@ -29,6 +29,5 @@ Ar pytz palīdzību tiek uzstādīta vienāda laika zona starp datoru, uz kura u
 
 ### time
 Time tiek izmantots, lai varētu uzstādīt pauzi starp pārbaudes ciklu.
-
 
 Pie settings neuzstādīt minutes rādītāju mazāk par 1 ārpus testēšanas nolūkiem, jo citādāk tiks atkārtoti nosūtīti vieni un tie paši e-pasti līdz minūtes beigām.
