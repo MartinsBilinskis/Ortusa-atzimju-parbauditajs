@@ -6,6 +6,8 @@
 ## Uzstādes process
 Pirms programmas palaišanas ir nepieciešams ierakstīt savējos kredenciāļus failā settings. Pie mainīgā "test_email" var uzstādīt e-pastu no kura sūtīs, lai pārbaudītu, vai programma strādā. G-mail parolei vajag radīt "app-password". Ir arī nepieciešams visus lielumus pierakstīt python sintaksē. 
 
+Tā kā programma strādā ar "Chrome" pārlūku to arī ir nepieciešams ieinstalēt, lai selenium strādātu.
+
 Ir arī nepieciešams vai nu ortusā uzlikt ka vērtējumus sūta uz g-mail vai arī savs ortusa pasts (outlook) jauzstāda, lai tas automatiski pārsūta vēstules uz g-mail. Ja izvēlas pārsūtīt no outlook uz g-mail tad settingos vajag ierakstīt savu ortusa e-pasta adresi pie "test_email"
 
 ## Programmas lietošana
