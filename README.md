@@ -3,6 +3,8 @@
 ## Programmas mērķis
 Šīs programmas mērķis ir atsūtīt patieso vērējumi, ko esi saņēmis par pārbadījumu. Ortus atsūta e-pastu par to ka ir pievienota jauna atzīme, bet e-pastā nesaka, to cik patiesībā ir šī atzīme, tāpēc šī programma atsūta patieso vērtējumu.
 
+![Problema](https://github.com/MartinsBilinskis/Ortusa-atzimju-parbauditajs/assets/144620146/e67643dc-3bfa-41d6-a3fc-df7f47d2a4eb)
+
 ## Uzstādes process
 Pirms programmas palaišanas ir nepieciešams ierakstīt savējos kredenciāļus failā settings. Pie mainīgā "test_email" var uzstādīt e-pastu no kura sūtīs, lai pārbaudītu, vai programma strādā. G-mail parolei vajag radīt "app-password". Ir arī nepieciešams visus lielumus pierakstīt python sintaksē. 
 
