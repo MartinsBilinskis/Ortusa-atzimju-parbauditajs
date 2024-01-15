@@ -13,6 +13,12 @@ Ir arī nepieciešams vai nu ortusā uzlikt ka vērtējumus sūta uz g-mail vai 
 ## Programmas lietošana
 Pēc uzstādes, šī programma strādā fonā. Pēc norādītā perioda tā pieslēdzas e-pastam un pārbauda vai nav jauna ziņa no ortusa par atzīmi, ja ir tad tā neatverot jaunus logus iees ortusā un atsūtīts atpakaļ uz e-pastu vērtējumu. 
 
+## Video ar to kā programma strādā
+
+
+https://github.com/MartinsBilinskis/Ortusa-atzimju-parbauditajs/assets/144620146/32463c15-7c6f-4b84-9b62-31f5d6c45f53
+
+
 ## Izmantotās bibliotēkas
 ### Selenium
 Selenium tiek izmantots, lai varētu tikt iekšā ortusā un varētu nolasīt vērtējumu.
