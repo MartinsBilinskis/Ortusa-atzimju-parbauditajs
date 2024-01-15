@@ -21,6 +21,9 @@ Pēc uzstādes, šī programma strādā fonā. Pēc norādītā perioda tā pies
 https://github.com/MartinsBilinskis/Ortusa-atzimju-parbauditajs/assets/144620146/32463c15-7c6f-4b84-9b62-31f5d6c45f53
 
 
+## Programmas darbības pamati
+Programma uzņem laiku no sākšanas brīža. Tad ieiet e-pastā un pārbauda vai kopš uzņemtā laika nav ienākusi vēstule no noreply-estudijas@rtu.lv vai cita uzstādītā e-pasta. Ja nav, tad programma iziet no imap savienojuma un atkal piefiksē laiku. Tad gaida uzstādīto periodu. Ja ir ienākusi jauna vēstule, (vai vairākas) tad tiek atrasta saite, kurā ir rakstīts vērtējums. No sākuma tiek atvērts ortus chrome pārlūkā headless režīmā un programma ielogojas, pēc tam dodas uz atrasto saiti. Atrastajā saitē tiek nolasīts, gan vērtējums, gan priekšmeta nosaukums. Šis vērtējums pēc tam tiek nosūtīts uz g-mail adresi. Tēmas sadaļā tiek pierakstīts, kurā priekšmetā ir jauna atzīme, un galvenajā daļā ir norāda jauno atzīmi. Pēc vēstules izsūtīšanas programma iziet no chrome pārlūka, kā arī no imap un smtp savienojumiem. Uzņem atkal esošo laiku un gaida uzstādīto periodu. Pēc perioda viss atkārtojas, līdz programma tiek pārtraukta.
+
 ## Izmantotās bibliotēkas
 ### Selenium
 Selenium tiek izmantots, lai varētu tikt iekšā ortusā un varētu nolasīt vērtējumu.
