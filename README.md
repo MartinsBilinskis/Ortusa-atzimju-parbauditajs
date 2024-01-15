@@ -32,7 +32,7 @@ Selenium tiek izmantots, lai varētu tikt iekšā ortusā un varētu nolasīt v�
 Ar smtplib nosūtam e-pastu paši uz savu e-pastu.
 
 ### email
-Lai vieglāk varētu veidot e-pastu struktūru un tos izsūtītu.
+Lai vieglāk varētu veidot izsūtāmus e-pastus.
 
 ### imaplib
 Tiek izmantots, lai nolasītu e-pasta saturu.
