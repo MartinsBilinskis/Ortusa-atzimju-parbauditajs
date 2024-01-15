@@ -17,6 +17,11 @@ import pytz
 import time
 from datetime import datetime
 
+if ortus_username == "" or ortus_password == "" or gmail_password == "" or gmail_username == "":
+    print("Nav pabeigta uzstādīšana! Lūdzu pabeigt uzstādīšanu settings.py failā.")
+    quit()
+
+
 chrome_options = Options()
 chrome_options.add_argument("--headless")
 
